@@ -31,7 +31,6 @@ def generate_redirect(url, deception, trash):
     print(redir)
     return redir
 
-
 def main():
     print(banner)
     parser = argparse.ArgumentParser("opnredirect.py", description="Phish like a pro")
