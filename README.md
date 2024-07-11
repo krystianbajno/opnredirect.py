@@ -9,6 +9,7 @@ https://baycode.eu
 ```
 
 ### Usage
+```
                                                          /$$ /$$                                 /$$                           
                                                         | $$|__/                                | $$                           
   /$$$$$$   /$$$$$$  /$$$$$$$   /$$$$$$   /$$$$$$   /$$$$$$$ /$$  /$$$$$$   /$$$$$$   /$$$$$$$ /$$$$$$       /$$$$$$  /$$   /$$
@@ -35,6 +36,8 @@ options:
   --deception DECEPTION
                         Override deception URL.
   --trash TRASH         Override trash.
+
+```
 
 ### Examples
 ```
