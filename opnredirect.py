@@ -29,6 +29,7 @@ def generate_redirect(url, deception, trash):
     q = urlencode_ascii("https://google.com/amp/s/")
     redir = f"https://google.com/url?{trash}&q={q}{target}{deception}"
     print(redir)
+    return redir
 
 
 def main():
