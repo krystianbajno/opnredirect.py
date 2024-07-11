@@ -2,11 +2,7 @@ import argparse
 
 # Reset
 Color_Off='\033[0m'       # Text Reset
-
-# Regular Colors
 Green='\033[0;32m'        # Green
-Yellow='\033[0;33m'       # Yellow
-Cyan='\033[0;36m'         # Cyan
 
 banner = f"""
 {Green}                                                         /$$ /$$                                 /$$                           
