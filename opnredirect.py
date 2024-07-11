@@ -35,11 +35,11 @@ def main():
     print(banner)
     parser = argparse.ArgumentParser("opnredirect.py", description="Phish like a pro")
     parser.add_argument("url", help="URL to redirect", type=str)
-    deception = "&search=tiktok.com/@predictable/video/7384779117729713441&action=play" # deception
-    trash = "&sca_esv=f4442ecd5deaf30f&ei=xyz0eW91ZG93bm5ldmVyZ29ubmE&ved=bmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXAK&uact=6&oq=search&gs_lp=RWdibmQzTXRkMm6c0FNWTFnUVlSemJHVjBlVzkxWkc5M2JtRnliM1Z1UFZZ0FRWXNBTVlReGlLQlVqWVdWQUFXQUJ3QTNnQmtBRUFtQUVBb0FFQXFnRUF1QUVEeUFFQW1BSURvQUlobUFNQWlBWUJrQVlLa2djQk02QUhBQQ&sclient=gws-wiz-serp"
-
     parser.add_argument("--deception", action='store',  help='Override deception URL.')
     parser.add_argument("--trash", action='store', required=False, help='Override trash.')
+
+    deception = "&search=tiktok.com/@predictable/video/7384779117729713441&action=play" # deception
+    trash = "&sca_esv=f4442ecd5deaf30f&ei=xyz0eW91ZG93bm5ldmVyZ29ubmE&ved=bmV2ZXIgZ29ubmEgZ2l2VEeUFFQW1ZSB5b3UgdXAK&uact=6&oq=search&gs_lp=RWdibmQzTXRkMmY2YVcxbmIyNXVZWEJ2Y0hOdmJXVjBZV2R6c0FNWTFnUVlSemJHVjBlVzkxWkc5M2JtRnliM1Z1MVpHOTNibUZ5YjNWdVpHUmxjMlZ5ZEhsdmRRS0JUSU5FQUFZZ0FRWXNBTVlReGlLQlVqWVdWQUFXQUJ3YsAMYQxiKBTINEAAYgAQYsAMYQxiKBUjYUFtQUVBb0FFQXFnRUF1QUBSURvQUlobUFNQWlBWUJrQVlLa2djQk02QUhBQQ&sclient=gws-wiz-serp"
 
     args = parser.parse_args()
     
