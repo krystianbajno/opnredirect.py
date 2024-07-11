@@ -21,12 +21,12 @@ banner = f"""
 """
 
 
-def percent_double_urlencode_ascii(s):
+def urlencode_ascii(s):
     return ''.join(['%{:02X}'.format(ord(c)) for c in s])
 
 def generate_redirect(url, deception, trash):
-    target = percent_double_urlencode_ascii(url)
-    q = percent_double_urlencode_ascii("https://google.com/amp/s/")
+    target = urlencode_ascii(url)
+    q = urlencode_ascii("https://google.com/amp/s/")
     redir = f"https://google.com/url?{trash}&q={q}{target}{deception}"
     print(redir)
 
