@@ -28,8 +28,6 @@ https://baycode.eu
 
 usage: opnredirect.py [-h] [--deception DECEPTION] [--trash TRASH] url
 
-Phish like a pro
-
 positional arguments:
   url                   URL to redirect
 
